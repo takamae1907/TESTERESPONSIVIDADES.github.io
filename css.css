@@ -671,7 +671,8 @@ body{
 
   @media all and (max-width: 320px) {
     .menu {
-      flex-direction: column;
+      flex-direction: row;
+      justify-content: center;
       padding: 5%;
     }
   
@@ -683,6 +684,8 @@ body{
     .logo {
       width: 50%;
       margin: 0 auto;
+      display: flex;
+      justify-content: center;
     }
   
     h1.tituloprincipal {
@@ -693,10 +696,12 @@ body{
     p.bannerin {
       font-size: 1.5rem;
       padding: 0 10px;
+      text-align: center;
     }
   
     .content, .content-left {
       flex-direction: column;
+      align-items: center;
       gap: 10px;
     }
   
@@ -714,22 +719,33 @@ body{
     }
   
     .card {
-      width: 90%;
+      width: 80%; /* Ajuste para melhor responsividade */
     }
   
-    .info-consulta {
+    .info-consulta, .meio, .formulario {
       flex-direction: column;
-      padding: 10%;
+      align-items: center;
+      padding: 5%;
+      text-align: center;
     }
   
-    .meio {
-      flex-direction: column;
-      padding: 5%;
+    .navbar ul {
+      padding: 0.5rem;
+      position: relative;
+      left: -50px;
+      top: 50%;
+      transform: translateY(-50%);
+      text-align: center;
     }
   
-    .formulario {
-      margin-left: 0;
-      padding: 5%;
+    .navbar a {
+      display: inline-block;
+      width: 2rem;
+      height: 2rem;
+    }
+  
+    .navbar a span {
+      font-size: 0.8rem;
     }
   }
   /* Para iPhone 8 e dispositivos similares */
@@ -997,77 +1013,3 @@ body{
   }
 }
 
-/* Para tablets (largura maior que 767px até 1024px) */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .menu {
-    padding: 0 10%;
-  }
-
-  .a-menu {
-    font-size: 1.7rem;
-  }
-
-  .logo {
-    width: 20%;
-  }
-
-  .h1tex {
-    font-size: 2.5rem;
-  }
-
-  article.content {
-    font-size: 1.2rem;
-    padding: 3% 10%;
-  }
-
-  .card {
-    width: 45%;
-    height: auto;
-    padding: 15px;
-  }
-
-  .card img {
-    width: 100%;
-    height: auto;
-  }
-
-  .cta-button {
-    padding: 18px 70px;
-  }
-}
-
-/* Para telas maiores que tablets */
-@media only screen and (min-width: 1025px) {
-  /* Ajuste no menu */
-  .menu {
-    padding: 0 15%;
-  }
-
-  .a-menu {
-    font-size: 1.8rem;
-  }
-
-  .logo {
-    width: 15%;
-  }
-
-  /* Ajuste de fontes */
-  .h1tex {
-    font-size: 3rem;
-  }
-
-  article.content {
-    font-size: 1.3rem;
-    padding: 3% 18%;
-  }
-
-  .card {
-    width: 30%;
-    height: auto;
-    padding: 20px;
-  }
-
-  .cta-button {
-    padding: 20px 80px;
-  }
-}
