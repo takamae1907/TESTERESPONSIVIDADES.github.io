@@ -670,65 +670,72 @@ body{
   /*separação*/
 
   @media all and (max-width: 320px) {
-    .menu {
-      flex-direction: row;
-      justify-content: center;
-      padding: 5%;
+    @media all and (max-width: 320px) {
+      .menu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5%;
+        text-align: center;
+      }
+    
+      .a-menu {
+        font-size: 1.2rem;
+        margin: 5px 0;
+      }
+    
+      .logo {
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      h1.tituloprincipal {
+        font-size: 2rem;
+        text-align: center;
+      }
+    
+      p.bannerin {
+        font-size: 1.5rem;
+        padding: 0 10px;
+        text-align: center;
+      }
+    
+      .content, .content-left {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+      }
+    
+      .texto, .imagem {
+        text-align: center;
+      }
+    
+      .img1 {
+        max-width: 100%;
+      }
+    
+      .cards-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    
+      .card {
+        width: 40%;
+      }
+    
+      .info-consulta, .meio, .formulario {
+        flex-direction: column;
+        align-items: center;
+        padding: 5%;
+        text-align: center;
+      }
     }
-  
-    .a-menu {
-      font-size: 1.2rem;
-      margin: 5px 0;
-    }
-  
-    .logo {
-      width: 50%;
-      margin: 0 auto;
-      display: flex;
-      justify-content: center;
-    }
-  
-    h1.tituloprincipal {
-      font-size: 2rem;
-      text-align: center;
-    }
-  
-    p.bannerin {
-      font-size: 1.5rem;
-      padding: 0 10px;
-      text-align: center;
-    }
-  
-    .content, .content-left {
-      flex-direction: column;
-      align-items: center;
-      gap: 10px;
-    }
-  
-    .texto, .imagem {
-      text-align: center;
-    }
-  
-    .img1 {
-      max-width: 100%;
-    }
-  
-    .cards-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .card {
-      width: 80%; /* Ajuste para melhor responsividade */
-    }
-  
-    .info-consulta, .meio, .formulario {
-      flex-direction: column;
-      align-items: center;
-      padding: 5%;
-      text-align: center;
-    }
-  
+    
     .navbar ul {
       padding: 0.5rem;
       position: relative;
