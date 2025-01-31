@@ -918,3 +918,130 @@ body{
   }
   
   
+  @media (max-width: 400px) {
+   
+  
+    h1 {
+      font-size: 1.2rem;
+      padding: 0% 15% 0% 15%;
+    }
+    .tituloprincipal{
+      padding: 0% 15% 0% 15%;
+      font-size: 1rem;
+    }
+  .meu{
+    align-items: center;
+    padding: 20% 0% 3% 0%;
+  }
+    #container {
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .imgprinc{
+      width: 50%;
+      align-items: center;
+      text-align: center;
+    }
+    p.bannerin{
+    padding: 0% 17% 0% 17%;
+    font-size: 1rem;
+    margin: 10px 0;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    }
+
+  h3{
+    padding: 0% 5% 0% 5%;
+    font-size: 0.9rem;
+    margin: 0%;
+    color: #1a679e;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  h2{
+    padding: 0% 5% 0% 5%;
+    font-size: 0.9rem;
+    margin: 0%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+  }
+    .card {
+      width: 100%;
+      margin: 0 auto;
+    }
+  
+    .cta-button {
+      font-size: 0.7rem;
+      padding: 6px 10px;
+    }
+  
+    .menu {
+      display: flex;
+      justify-content: flex-start; /* Alinha os itens à esquerda */
+      align-items: center; /* Centraliza os itens verticalmente */
+      padding: 2%;
+      gap: 15px; /* Espaço entre os itens */
+    }
+    
+    .a-menu {
+      font-size: 1rem;
+      margin: 0; /* Remove margens desnecessárias */
+      text-decoration: none;
+      color: #333;
+      padding: 8px 12px;
+      transition: all 0.3s ease;
+    }
+    
+    .a-menu:hover {
+      color: #007bff;
+    }
+    
+    .logo {
+      width: 30%;
+      margin: 0 auto;
+      align-items: center;
+    }
+  
+    .formulario {
+      padding: 15%;
+    }
+  
+    .formulario label {
+      font-size: 0.9rem;
+    }
+  
+    .formulario input,
+    .formulario textarea {
+      padding: 8px 0px 0px 3px;
+      font-size: 0.8rem;
+    }
+  
+    .formulario button {
+      font-size: 0.9rem;
+      padding: 8px 8px 8px 8px;
+    }
+  
+    .navbar ul {
+      padding: 0.5rem;
+      position: relative;
+      left: -70px;
+      top: 50%;
+     
+    }
+  
+    .navbar a {
+      width: 1rem;
+      height: 1rem;
+    }
+  
+    .navbar a span {
+      font-size: 0.8rem;
+    }
+  p.principal{
+    font-size: 1rem;
+    
+  }
+  }
+  
+  
