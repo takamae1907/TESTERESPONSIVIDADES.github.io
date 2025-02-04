@@ -375,93 +375,8 @@ p {
   border-radius: 3px;
 }
 /* Responsividade para telas menores */
-@media (max-width: 1024px) {
-  .tema {
-    padding: 10px;
-    font-size: 1.2rem;
-  }
 
-  h1 {
-    font-size: 2rem;
-  }
-
-  #container {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .card {
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  .cta-button {
-    font-size: 0.9rem;
-    padding: 8px 16px;
-  }
-
-  .menu {
-    flex-direction: column;
-    padding: 5%;
-    text-align: center;
-  }
-
-  .a-menu {
-    margin-bottom: 10px;
-    font-size: 1.5rem;
-  }
-
-  .logo {
-    width: 20%;
-    margin: 0 auto;
-  }
-}
-
-@media (max-width: 768px) {
-  .tema {
-    padding: 5px;
-    font-size: 1rem;
-  }
-
-  h1 {
-    font-size: 1.8rem;
-  }
-
-  .card {
-    width: 95%;
-  }
-
-  .formulario {
-    padding: 10%;
-  }
-
-  .navbar ul {
-    flex-direction: column;
-    padding: 1rem;
-  }
-
-  .navbar a {
-    width: 2.5rem;
-    height: 2.5rem;
-  }
-
-  .navbar a span {
-    font-size: 0.9rem;
-  }
-
-  .embaixo {
-    flex-direction: column;
-    padding: 10%;
-    text-align: center;
-  }
-
-  .info,
-  .info2 {
-    margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 480px) {
+@media (max-width: 320px) {
   .tema {
     padding: 5px;
     font-size: 0.9rem;
@@ -516,28 +431,30 @@ h2{
     display: flex;
     justify-content: flex-start; /* Alinha os itens à esquerda */
     align-items: center; /* Centraliza os itens verticalmente */
-    padding: 2%;
+    padding: 5%;
     gap: 15px; /* Espaço entre os itens */
   }
   
   .a-menu {
-    font-size: 1rem;
+    font-size: 0.5rem;
     margin: 0; /* Remove margens desnecessárias */
     text-decoration: none;
     color: #333;
     padding: 8px 12px;
     transition: all 0.3s ease;
+    align-items: center;
+    
   }
   
   .a-menu:hover {
     color: #007bff;
   }
   
-  .logo {
-    width: 30%;
-    margin: 0 auto;
-    align-items: center;
-  }
+  .logo{
+    width: 20%;
+    padding: 0% 0% 0% -20%;
+    margin: 0%;
+   }
 
   .formulario {
     padding: 15%;
@@ -604,7 +521,7 @@ h2{
     
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .tema {
     padding: 5px;
     font-size: 0.9rem;
@@ -664,23 +581,23 @@ h2{
   }
   
   .a-menu {
-    font-size: 1rem;
+    font-size: 0.5rem;
     margin: 0; /* Remove margens desnecessárias */
     text-decoration: none;
     color: #333;
     padding: 8px 12px;
     transition: all 0.3s ease;
+    align-items: center;
+    
   }
-  
   .a-menu:hover {
     color: #007bff;
   }
-  
-  .logo {
-    width: 30%;
-    margin: 0 auto;
-    align-items: center;
-  }
+  .logo{
+    width: 20%;
+    padding: 0% 0% 0% -20%;
+    margin: 0%;
+   }
 
   .formulario {
     padding: 15%;
