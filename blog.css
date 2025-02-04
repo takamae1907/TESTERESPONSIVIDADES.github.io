@@ -462,39 +462,146 @@ p {
 }
 
 @media (max-width: 480px) {
+  .tema {
+    padding: 5px;
+    font-size: 0.9rem;
+  }
+
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+  }
+.meu{
+  align-items: center;
+  padding: 20% 0% 3% 0%;
+}
+  #container {
+    flex-direction: column;
+    gap: 10px;
+  }
+p{
+  padding: 0% 5% 0% 5%;
+  font-size: 0.7rem;
+  margin: 10px 0;
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  
+}
+h3{
+  padding: 0% 5% 0% 5%;
+  font-size: 0.9rem;
+  margin: 0%;
+  color: #1a679e;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+h2{
+  padding: 0% 5% 0% 5%;
+  font-size: 0.9rem;
+  margin: 0%;
+
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+  .card {
+    width: 100%;
+    margin: 0 auto;
   }
 
   .cta-button {
-    font-size: 0.8rem;
-    padding: 6px 12px;
+    font-size: 0.7rem;
+    padding: 6px 10px;
   }
 
   .menu {
+    display: flex;
+    justify-content: flex-start; /* Alinha os itens à esquerda */
+    align-items: center; /* Centraliza os itens verticalmente */
     padding: 2%;
+    gap: 15px; /* Espaço entre os itens */
   }
-
+  
   .a-menu {
     font-size: 1rem;
+    margin: 0; /* Remove margens desnecessárias */
+    text-decoration: none;
+    color: #333;
+    padding: 8px 12px;
+    transition: all 0.3s ease;
+  }
+  
+  .a-menu:hover {
+    color: #007bff;
+  }
+  
+  .logo {
+    width: 30%;
+    margin: 0 auto;
+    align-items: center;
   }
 
   .formulario {
-    padding: 15px;
+    padding: 15%;
+  }
+
+  .formulario label {
+    font-size: 0.9rem;
+  }
+
+  .formulario input,
+  .formulario textarea {
+    padding: 8px 0px 0px 3px;
+    font-size: 0.8rem;
+  }
+
+  .formulario button {
+    font-size: 0.9rem;
+    padding: 8px 8px 8px 8px;
   }
 
   .navbar ul {
     padding: 0.5rem;
+    position: relative;
+    left: -70px;
+    top: 50%;
+   
   }
 
   .navbar a {
-    width: 2rem;
-    height: 2rem;
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .navbar a span {
+    font-size: 0.8rem;
+  }
+
+  .embaixo {
+    flex-direction: column;
+    padding: 5%;
+    text-align: center; 
   }
 
   .info,
   .info2 {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    align-items: center;
+    padding: 0% 15% 0% 15%;
+    
+  }
+
+  .accordion-header {
     font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .accordion-body {
+    font-size: 0.8rem;
+  }
+  .faq-section {
+    align-items: center;
+    padding: 0% 15% 0% 15%;
+    
   }
 }
 @media (max-width: 320px) {

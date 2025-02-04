@@ -6,7 +6,8 @@ window.addEventListener('scroll', function () {
         navbar.classList.remove('scrolled');
     }
 });
-
+if (window.innerWidth > 500) {
+  
 window.sr = ScrollReveal({reset: true});
 sr.reveal('.tituloprincipal2', { duration:1300});
 sr.reveal('.bannerin', {duration:1200});
@@ -22,4 +23,4 @@ sr.reveal('.servicos', {duration:1200});
 sr.reveal('.centro', {duration:1200});
 sr.reveal('.image-section2', {duration:1200});
 
-
+}
